@@ -1,6 +1,6 @@
 import { NavLink,Outlet } from "react-router";
 
-export default MainLayout =()=>{
+const MainLayout =()=>{
     return(
         <div>
              <nav style={{ display: "flex", gap: "16px", marginBottom: "20px" }}>
@@ -11,3 +11,6 @@ export default MainLayout =()=>{
         </div>
     )
 } 
+
+
+export default MainLayout;
